@@ -8,7 +8,6 @@ class Solution:
         for i in range(len(nums)):
             result.append(left)
             left*=nums[i]
-
         for i in range(len(nums)-1,-1,-1):# iterate from right to left
             result[i]*=right
             right*=nums[i]
