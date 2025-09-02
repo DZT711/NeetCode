@@ -16,7 +16,7 @@ s=Solution()
 print(s.isAnagram("anagram", "nagaram"))  # True
 print(s.isAnagram("lam", "fam"))  
 print(s.isAnagram("lam", "lam1"))  
-# class Solution:
+
 #     def isAnagram(self, s: str, t: str) -> bool:
 
 #         return sorted(s)==sorted(t)

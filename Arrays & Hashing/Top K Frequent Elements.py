@@ -17,14 +17,14 @@ class Solution:
         return result
 s=Solution()
 print(s.topKFrequent([7,7],1))
-# class Solution:
+
 #     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 #         result = []
 #         counts = Counter(nums)
 #         for num, _ in counts.most_common(k):
 #             result.append(num)
 #         return result
-# class Solution:
+
 #     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 #         counts = Counter(nums)
 #         return [num for num, _ in counts.most_common(k)]

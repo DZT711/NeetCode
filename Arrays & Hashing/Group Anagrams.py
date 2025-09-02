@@ -13,7 +13,7 @@ s=Solution()
 print(s.groupAnagrams(["eat","eat"]))
 print(s.groupAnagrams([""]))
 print(s.groupAnagrams(["eat","tea","tan","ate","nat","bat","fact"]))
-# class Solution:
+
 #     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
 #         result=[]
 #         freq_map = {}
@@ -25,7 +25,7 @@ print(s.groupAnagrams(["eat","tea","tan","ate","nat","bat","fact"]))
 #         for group in freq_map.values():
 #             result.append(group)
 #         return result
-# class Solution:   
+
 #     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
 
 

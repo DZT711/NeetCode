@@ -19,7 +19,7 @@ print(s.longestConsecutive([1,2,0,1,4,5,6,7]))
 print(s.longestConsecutive([0,3,2,5,4,6,1,1]))
 print(s.longestConsecutive([]))
 
-# class Solution:
+
 #     def longestConsecutive(self, nums: List[int]) -> int:
 #         if len(nums)==0:
 #             return 0

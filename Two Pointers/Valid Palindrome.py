@@ -21,7 +21,7 @@ print(s.isPalindrome("A man, a plan, a canal: Panama"))
 print(s.isPalindrome("race a car"))
 print(s.isPalindrome("lo                     l"))
 print(s.isPalindrome("loop                     pool"))
-# class Solution:
+
 #     def isPalindrome(self, s: str) -> bool:
 #         filtered_chars = [char.lower() for char in s if char.isalnum()]
 #         return filtered_chars == filtered_chars[::-1]

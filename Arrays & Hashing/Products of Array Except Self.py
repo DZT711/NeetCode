@@ -15,7 +15,7 @@ class Solution:
     
 s=Solution()
 print(s.productExceptSelf([1,2,3,4]))
-# class Solution:
+
 #     def productExceptSelf(self, nums: List[int]) -> List[int]:
 #         result=[]
 #         for i in range(len(nums)):
@@ -23,7 +23,7 @@ print(s.productExceptSelf([1,2,3,4]))
             
 #             result.append(int(math.prod(newarr)))
 #         return result
-# class Solution:
+
 #     def productExceptSelf(self, nums: List[int]) -> List[int]:
 #         result=[]
 #         for i in range(len(nums)):
